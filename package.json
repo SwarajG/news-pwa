@@ -17,14 +17,16 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-tabs": "^3.0.0",
+    "serve": "^11.0.0",
     "typescript": "3.4.3",
     "workbox-webpack-plugin": "^4.2.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "react-app-rewired build && serve -s build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prod-build": "react-app-rewired build && serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
