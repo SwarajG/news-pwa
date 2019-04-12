@@ -13,6 +13,7 @@
     "antd": "^3.16.2",
     "emotion": "^10.0.9",
     "react": "^16.8.6",
+    "react-app-rewired": "^2.1.1",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
@@ -36,8 +37,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "react-app-rewired": "^2.1.1"
-  }
+  ]
 }
