@@ -23,7 +23,7 @@
     "workbox-webpack-plugin": "^4.2.0"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "serve -s build",
     "build": "react-app-rewired build && serve -s build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
