@@ -17,9 +17,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
   },
   "include": [
     "src"
-  ]
+  ],
+  "exclude": [
+    "./src/sw.ts"
+  ],
 }
